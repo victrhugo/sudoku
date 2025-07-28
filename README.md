@@ -36,9 +36,6 @@ Editar
 ---
 
 🖥️ Menu do Jogo
-markdown
-Copiar
-Editar
 ===============================
        🧩 JOGO DE SUDOKU - DIO
 ===============================
