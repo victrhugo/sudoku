@@ -35,21 +35,6 @@ Editar
 
 ---
 
-## ▶️ Como Executar
-
-### 1. Compile os arquivos Java:
-
-```bash
-javac src/br/com/dio/**/*.java
-2. Execute o programa passando os argumentos de inicialização do tabuleiro:
-bash
-Copiar
-Editar
-java br.com.dio.Main "0,0;4,false" "1,0;7,false" "2,0;9,true" ...
-Os argumentos devem seguir o formato:
-"coluna,linha;valor,fixo"
-Exemplo: "0,0;5,false" → posição (0,0), valor 5, não é fixo.
-
 🖥️ Menu do Jogo
 markdown
 Copiar
@@ -66,19 +51,30 @@ Editar
 6 - Limpar jogo
 7 - Finalizar jogo
 8 - Sair
-🛠️ Tecnologias Utilizadas
-Java 11+
+## 🛠️ Tecnologias Utilizadas
 
-Programação Orientada a Objetos (POO)
+- Java 11+
+- Programação Orientada a Objetos (POO)
+- Java Stream API
+- Terminal (CLI)
+- Scanner
 
-Java Stream API
+---
 
-Terminal (CLI)
+## 📎 Links úteis
 
-Scanner
+- [Repositório original da DIO](https://github.com/digitalinnovationone/sudoku)
+- [Draw.io (para diagramação opcional)](https://app.diagrams.net/)
 
-📎 Links úteis
-Repositório original da DIO
+---
 
-Draw.io (para diagramação opcional)
+## 🧠 Aprendizados
+
+Este projeto reforça os conceitos de:
+
+- Estruturação de aplicações em camadas (model, util, main)
+- Manipulação de coleções e estruturas de dados
+- Entradas via terminal
+- Boas práticas com `Scanner`, `Map`, `List` e `Stream`
+
 
